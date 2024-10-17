@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duck Hunt | Visual Midia</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+  <div class="orange-semi-circle"></div>
+  <div class="yellow-circle"></div>
+
+  <div class="image-container">
+    <img src="./assets/Mulher.png" alt="Mulher">
+  </div>
+
+  <div class="text-circle">
+    <p>Duck<br>Hunt</p>
+  </div>
+
+  <div class="info-text">
+    <p><span>Exercite seus reflexos</span> com diversão garantida! O <span>O game Duck Hunt Visual Mídia</span> está aqui
+      para te desafiar!</p>
+  </div>
+
+  <div class="button-play" onclick="buttonJogar()">
+    <button>TOQUE PARA JOGAR</button>
+  </div>
+
+
+
+  <img class="logo1" src="./assets/logo.png" alt="">
+  <img class=" logo2" src="./assets/logovm.png" alt="">
+
+</body>
+<script>
+  
+function buttonJogar() {
+  window.location.href = "game.html";
+}
+</script>
+
+</html>
